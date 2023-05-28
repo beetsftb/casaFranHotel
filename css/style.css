@@ -2334,4 +2334,8 @@ ul, ol {
 	.blog-details-text .comment-option .single-comment-item .sc-text a {
 		margin-bottom: 10px;
 	}
+
+	.video{
+		display:none;
+	}
 }
