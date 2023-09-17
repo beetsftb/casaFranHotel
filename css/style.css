@@ -70,6 +70,11 @@ p {
 	line-height: 26px;
 	margin: 0 0 15px 0;
 }
+
+.alinearLogo{
+	padding: 20px 0;
+}
+
 img {
 	max-width: 100%;
 }
@@ -387,11 +392,13 @@ ul, ol {
 	z-index: 9;
 }
 .menu-item .logo {
-	padding: 25px 0;
+	padding: 5px 0;
 }
 .menu-item .logo a {
 	display: inline-block;
 }
+
+
 .menu-item .nav-menu {
 	text-align: right;
 }
@@ -2008,13 +2015,14 @@ ul, ol {
 	}
 	.canvas-open {
 		position: absolute;
+		background-color: #000;
 		right: 40px;
 		top: 25px;
-		font-size: 22px;
-		width: 30px;
-		height: 30px;
-		color: #19191a;
-		border: 1px solid #19191a;
+		font-size: 40px;
+		width: 40px;
+		height: 40px;
+		color: white;
+		border: 1px solid white;
 		border-radius: 2px;
 		line-height: 33px;
 		text-align: center;
@@ -2297,6 +2305,11 @@ ul, ol {
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
+
+	.alinearLogo{
+		display: none;
+
+	}
 	.footer-section .copyright-option ul li {
 		margin-bottom: 5px;
 	}
@@ -2313,29 +2326,31 @@ ul, ol {
 	.rd-reviews .review-item .ri-text, .blog-details-text .comment-option .single-comment-item.second-comment .sc-text, .blog-details-text .comment-option .single-comment-item.first-comment .sc-text {
 		padding-left: 0;
 	}
-	.blog-details-text .comment-option .single-comment-item.reply-comment {
-		padding-left: 30px;
-	}
 	.rd-reviews .review-item .ri-text:before, .blog-details-text .comment-option .single-comment-item.first-comment .sc-text:before, .blog-details-text .comment-option .single-comment-item.second-comment .sc-text:before {
 		display: none;
 	}
-	.blog-details-hero {
-		padding-top: 70px;
-	}
-	.blog-details-text .bd-pic .bp-item {
-		width: 100%;
-		float: none;
-		margin-right: 0;
-		margin-bottom: 10px;
-	}
-	.blog-details-text .tag-share .tags a {
-		margin-bottom: 6px;
-	}
-	.blog-details-text .comment-option .single-comment-item .sc-text a {
-		margin-bottom: 10px;
-	}
+	
 
 	.video{
 		display:none;
 	}
 }
+
+
+.whatsapp {
+	position:fixed;
+	width:85px;
+	height:85px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:60px;
+	z-index:100;
+  }
+  
+  .whatsapp-icon {
+	margin-top:13px;
+  }
