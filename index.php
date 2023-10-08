@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Casa Fran">
-    <meta name="keywords" content="Vacaciones,Casa de campo, Piedritas, Gral. Villegas">
+    <meta name="keywords" content="Vacaciones,Casa de campo, Gral Villegas, Piedritas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Casa Fran | Casa de Campo Boutique</title>
@@ -12,8 +12,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
-
-    <link rel="shortcut icon" href="./img/logo1.png">
+  
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -25,6 +24,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="./img/logo1.png">
 </head>
 
 <body>
@@ -48,7 +48,7 @@
         <nav class="mainmenu mobile-menu">
             <ul>
                 <li class="active"><a href="./index.php">Home</a></li>
-                <li><a href="./rooms.html">Habitaciones</a></li>
+                <li><a href="./room-details.html">Habitaciones</a></li>
                 <li><a href="./about-us.html">Sobre Nosotros</a></li>
                 <li><a href="./contact.html">Contacto</a></li>
             </ul>
@@ -59,14 +59,14 @@
             <a href="https://instagram.com/casafran.ok?igshid=MWZjMTM2ODFkZg=="><i class="fa fa-instagram"></i></a>
         </div>
         <ul class="top-widget">
-            <li><i class="fa fa-phone"></i> (+54) 3388454435</li>
+            <li><i class="fa fa-phone"></i> (+54) 3388454435 </li>
             <li><i class="fa fa-envelope"></i>contacto@casafran.com.ar</li>
         </ul>
     </div>
     <!-- Offcanvas Menu Section End -->
 
     <!-- Header Section Begin -->
-    <header class="header-section header-normal">
+    <header class="header-section">
         <div class="top-nav">
             <div class="container">
                 <div class="row">
@@ -102,13 +102,12 @@
                         <div class="nav-menu">
                             <nav class="mainmenu">
                                 <ul>
-                                    <li><a href="./index.php">Home</a></li>
+                                    <li class="active"><a href="./index.php">Home</a></li>
                                     <li><a href="./room-details.html">Habitaciones</a></li>
-                                    <li class="active"><a href="./about-us.html">Sobre Nosotros</a></li>
+                                    <li><a href="./about-us.html">Sobre Nosotros</a></li>
                                     <li><a href="./contact.html">Contacto</a></li>
                                 </ul>
                             </nav>
-                   
                         </div>
                     </div>
                 </div>
@@ -117,79 +116,53 @@
     </header>
     <!-- Header End -->
 
-    <!-- Breadcrumb Section Begin -->
-    <div class="breadcrumb-section">
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text">
-                        <h2>Sobre Nosotros</h2>
-                        <div class="bt-option">
-                            <a href="./index.php">Home</a>
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1>Casa de campo boutique</h1>
+                        <p>Brindamos una atención personalizada para usted y su familia que desean disfrutar días de descanso y diversión en un ambiente rural con pura naturaleza</p>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Begin -->
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
                             <span>Sobre Nosotros</span>
+                            <h2>CASA FRAN</h2>
                         </div>
+                        <p class="f-para">Es un lugar único que se encuentra dentro de la Estancia Maria Esther, donde podes
+                            encontrar paz y tranquilidad.
+                        </p>
+                        <p class="s-para">Ubicada al noroeste de la Prov. de Bs As, en el partido de Gral. Villegas, limita con las provincias de Cordoba, Santa Fé y La Pampa.<br>
+                        Nuestro alojamiento fusiona la calidez del campo con objetos naturales y reciclados</p>
+                        <a href="./about-us.html" class="primary-btn about-btn">Saber más</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb Section End -->
-
-    <!-- About Us Page Section Begin -->
-    <section class="aboutus-page-section spad">
-        <div class="container">
-            <div class="about-page-text">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="ap-title">
-                            <h2>Bienvenidos a Casa Fran</h2>
-                            <p>Nuestro encantador refugio en pleno corazón de la naturaleza. 
-                                Ubicado en medio de la pampa humeda, este lugar ofrece a los huéspedes
-                                la oportunidad de escapar del bullicio de la ciudad y sumergirse en un entorno de serenidad
-                                y belleza natural. 
-                            </p>
-                            <p>
-                                Desde el momento en que llegues, te sentirás transportado a un mundo de paz y tranquilidad. 
-                                La arquitectura rústica y el diseño acogedor de nuestras habitaciones crean un ambiente cálido
-                                y relajante, perfecto para descansar y desconectar. 
-                            </p>
-                            <p>Casa Fran es el lugar perfecto para un fin de semana rejuvenecedor en la naturaleza. 
-                                Ya sea que estés buscando una escapada romántica, un retiro familiar o simplemente 
-                                un momento de paz y tranquilidad, aquí encontrarás todo lo que necesitas para recargar 
-                                energías. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <ul class="ap-services">
-                            <li><i class="icon_check"></i> Kit de Infusiones</li>
-                            <li><i class="icon_check"></i> Desayuno americano</li>
-                            <li><i class="icon_check"></i> Servicio de Mucama Diario</li>
-                            <li><i class="icon_check"></i> Free Wifi</li>
-                            <li><i class="icon_check"></i> Salon con TV</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="about-page-services">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="ap-service-item set-bg" data-setbg="img/about/about-p1.jpg">
-                            <div class="api-text">
-                                <h3>Servicio de Restaurant</h3>
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/about-1.jpg" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ap-service-item set-bg" data-setbg="img/about/about-p2.jpg">
-                            <div class="api-text">
-                                <h3>Naturaleza & Tranquilidad</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ap-service-item set-bg" data-setbg="img/about/about-p3.png">
-                            <div class="api-text">
-                                <h3>Eventos & Reuniones</h3>
+                            <div class="col-sm-6">
+                                <img src="img/about/about-2.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -197,70 +170,165 @@
             </div>
         </div>
     </section>
-    <!-- About Us Page Section End -->
+    <!-- About Us Section End -->
 
-    <!-- Video Section Begin -->
-    <section class="video-section set-bg" data-setbg="img/video-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="video-text">
-                        <h2>Descubre nuestro Hotel & Servicios</h2>
-                        <a href="https://www.youtube.com/watch?v=37RVPvPKERA" class="play-btn video-popup"><img
-                                src="img/play.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Video Section End -->
-
-    <!-- Gallery Section Begin -->
-    <section class="gallery-section spad">
+    <!-- Services Section End -->
+    <section class="services-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <span>GALERIA</span>
-                        <h2>Nuestro Lugar</h2>
+                        <span>Servicios</span>
+                        <h2>Descubrí nuestros servicios</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="gallery-item set-bg" data-setbg="img/gallery/gallery-1.jpg">
-                        <div class="gi-text">
-                            <h3>Nuestras Habitaciones</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="gallery-item set-bg" data-setbg="img/gallery/gallery-3.jpg">
-                                <div class="gi-text">
-                                    <h3>Nuestros fogones</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="gallery-item set-bg" data-setbg="img/gallery/gallery-4.jpg">
-                                <div class="gi-text">
-                                    <h3>Naturaleza</h3>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-036-parking"></i>
+                        <h4>Actividades</h4>
+                        <p>Paseos en bicicletas, cabalgatas y caminatas.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="gallery-item large-item set-bg" data-setbg="img/gallery/gallery-2.jpg">
-                        <div class="gi-text">
-                            <h3>Disfruta el atarceder en nuestra galería</h3>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4>Asado en la Laguna</h4>
+                        <p>Disfruta de un asado en nuestro fogón en la laguna de la estancia</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-012-cocktail"></i>
+                        <h4>Bar & Drinking</h4>
+                        <p>Disfruta de los mejores tragos en nuestro bar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Home Room Section Begin -->
+    <section class="hp-room-section">
+        <div class="container-fluid">
+            <div class="hp-room-items">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b2.jpg">
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b3.jpg">
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/room-b4.jpg">
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Gallery Section End -->
+    <!-- Home Room Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Testimonios</span>
+                        <h2>¿Que dicen nuestros clientes?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p>Un lugar con una paz increible, disfrutando el aire puro de la naturaleza. 
+                                La habitación realmente muy cálida, las camas super cómodas. Muchas gracias 
+                                por la amabilidad y permitirnos pasar un fin de semana en familia y en paz. 
+                            </p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                </div>
+                                <h5> - Alejandra Vazquez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                        <div class="ts-item">
+                            <p>Pasamos un fin de semana increíble en este lugar. Super tranquilo, disfrutando la calma
+                                lejos de la ciudad y respirando naturaleza. Tiene una laguna hermosa donde hicimos un asado.
+                                Lo super recomendamos!
+                            </p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Hugo Gonzalez</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
+        <div class="container video">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>CASA FRAN</span>
+                        <h2>Recorramos juntos nuestro complejo</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row video">
+                <div class="col-lg-8">
+                    <div class="blog-item small-size set-bg" data-setbg="img/blog/blog-wide.mp4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lIizYiLWoZc?si=zX3HpDEFb3zrvKTe&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="bi-text">
+                            <span class="b-tag">CASA FRAN</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="blog-item small-size set-bg">
+                            <iframe  class="blog-item small-size set-bg video"  width="560" height="315" src="https://www.youtube.com/embed/37RVPvPKERA?si=NLXOjO5vqG07STBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="bi-text">
+                            <span class="b-tag">DANIEL COLOMBO</span>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -317,7 +385,9 @@
         </div>
     </div>
     <!-- Search model end -->
+
 	<a href="https://api.whatsapp.com/send?phone=5493388454435&text=Hola, les escribo por una una consulta sobre el alojamiento!" class="whatsapp" target="_blank"> <i class="fa  fa-whatsapp whatsapp-icon"></i></a>
+
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
