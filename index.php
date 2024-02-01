@@ -51,6 +51,7 @@
                 <li><a href="./room-details.html">Habitaciones</a></li>
                 <li><a href="./about-us.html">Sobre Nosotros</a></li>
                 <li><a href="./contact.html">Contacto</a></li>
+                <li><a href="./como-llegar.html">Como llegar</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -106,6 +107,7 @@
                                     <li><a href="./room-details.html">Habitaciones</a></li>
                                     <li><a href="./about-us.html">Sobre Nosotros</a></li>
                                     <li><a href="./contact.html">Contacto</a></li>
+                                    <li><a href="./como-llegar.html">Como llegar</a></li>
                                 </ul>
                             </nav>
                         </div>
