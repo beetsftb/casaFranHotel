@@ -28,10 +28,10 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
+    <!-- Page Preloder-->
     <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> 
 
     <!-- Offcanvas Menu Section Begin -->
     <div class="offcanvas-menu-overlay"></div>
@@ -365,7 +365,7 @@
                         </div>
                         <div class="co-text">
                             <p>
-                            Desarrollado por <a href="#" target="_blank">Beets</a>
+                            Desarrollado por <a href="www.beets.com.ar" target="_blank">Beets</a>
                         </p>
                     </div>
                 </div>
